@@ -2,7 +2,7 @@
 
 论文 [Transformation Invariant Few-Shot Object Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Transformation_Invariant_Few-Shot_Object_Detection_CVPR_2021_paper.pdf) 代码复现。
 
-<img src="img/image-2022071283359179 PM.png" alt="image-2022071283359179 PM" style="zoom:40%;float: left;" />
+<img src="img/image-2022071283359179 PM.png" alt="image-2022071283359179 PM" width=50% style="zoom:40%;float: left;" />
 
 ## 目录
 

@@ -285,7 +285,7 @@ TIP 实验结果可视化：
 
 <img src="img/image-2022071753210143 PM.png" alt="image-2022071753210143 PM"  />
 
-<img src="img/image-2022071753246972 PM.png" alt="image-2022071753246972 PM" style="zoom:35%;" />
+<img src="img/image-2022071753246972 PM.png" alt="image-2022071753246972 PM" width=60% style="zoom:35%;" />
 
 Supervision 一列中，Fully 为标准 FSOD，Semi-25%labeled 代表 base classes 中 25% 的图像有标签，Semi-50%labeled 代表 base classes 中 50% 的图像有标签；Model 一列中，TIGE 为 Baseline 的基础上增加了引导向量的转换一致性，TIQP 为 Baseline 的基础上增加了查询图像的转换一致性。
 

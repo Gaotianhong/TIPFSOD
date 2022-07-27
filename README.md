@@ -313,4 +313,4 @@ Supervision 一列中，Fully 为标准 FSOD，Semi-25%labeled 代表 base class
 
 在 PASCAL VOC 数据集实验结果可视化：
 
-![image-20220716105351814 PM](img/image-20220716105351814 PM.png)
+<img src="img/image-20220716105351814 PM.png" alt="image-20220716105351814 PM"/>

@@ -307,7 +307,7 @@ Supervision 一列中，Fully 为标准 FSOD，Semi-25%labeled 代表 base class
 
 三种不同划分方式的 PASCAL VOC 数据集实验结果如下表所示：
 
-![image-2022071753639379 PM](img/image-2022071753639379 PM.png)
+<img src="img/image-2022071753639379 PM.png" alt="image-2022071753639379 PM"/>
 
 其中，**ITIP** 为原 TIP 方法的改进，即上述提到的增加 TFMC Loss。
 

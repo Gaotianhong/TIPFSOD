@@ -2,7 +2,7 @@
 
 论文 [Transformation Invariant Few-Shot Object Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Transformation_Invariant_Few-Shot_Object_Detection_CVPR_2021_paper.pdf) 代码复现。
 
-<img src="README.assets/image-2022071283359179 PM.png" alt="image-2022071283359179 PM" style="zoom:40%;float: left;" />
+<img src="img/image-2022071283359179 PM.png" alt="image-2022071283359179 PM" style="zoom:40%;float: left;" />
 
 ## 目录
 
@@ -257,23 +257,23 @@ bash run/test_coco.sh
 
 总共包含三种不同的 base/novel classes 划分方式，IoU 的阈值设置为 0.5，下表为实验结果：
 
-![image-2022071753129382 PM](README.assets/image-2022071753129382 PM.png)
+![image-2022071753129382 PM](img/image-2022071753129382 PM.png)
 
 其中，Baseline 为论文 [Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild](https://github.com/YoungXIAO13/FewShotDetection#installation) 中所使用的模型，TIP为复现论文中所使用到的模型。
 
 在 PASCAL VOC 数据集上 Baseline 实验结果可视化：
 
-![image-20220716103211601 PM](README.assets/image-20220716103211601 PM.png)
+![image-20220716103211601 PM](img/image-20220716103211601 PM.png)
 
 TIP 实验结果可视化：
 
-![image-20220716103251027 PM](README.assets/image-20220716103251027 PM.png)
+![image-20220716103251027 PM](img/image-20220716103251027 PM.png)
 
 **COCO**
 
 在 COCO 数据集的实验结果如下表所示：
 
-![image-2022071752034960 PM](README.assets/image-2022071752034960 PM.png)
+![image-2022071752034960 PM](img/image-2022071752034960 PM.png)
 
 其中，K 代表 Shots 的个数。
 
@@ -283,9 +283,9 @@ TIP 实验结果可视化：
 
 在半监督 FSOD 场景下，三种不同划分方式的 PASCAL VOC 数据集实验结果如下表所示：
 
-![image-2022071753210143 PM](README.assets/image-2022071753210143 PM.png)
+![image-2022071753210143 PM](img/image-2022071753210143 PM.png)
 
-<img src="README.assets/image-2022071753246972 PM.png" alt="image-2022071753246972 PM" style="zoom:35%;" />
+<img src="img/image-2022071753246972 PM.png" alt="image-2022071753246972 PM" style="zoom:35%;" />
 
 Supervision 一列中，Fully 为标准 FSOD，Semi-25%labeled 代表 base classes 中 25% 的图像有标签，Semi-50%labeled 代表 base classes 中 50% 的图像有标签；Model 一列中，TIGE 为 Baseline 的基础上增加了引导向量的转换一致性，TIQP 为 Baseline 的基础上增加了查询图像的转换一致性。
 
@@ -295,7 +295,7 @@ Supervision 一列中，Fully 为标准 FSOD，Semi-25%labeled 代表 base class
 
 对原有 TIP 方法进行改进，设计如下网络结构：
 
-<img src="README.assets/image-20220716101322740 PM.png" alt="image-20220716101322740 PM" style="zoom:45%;float: left;" />
+<img src="img/image-20220716101322740 PM.png" alt="image-20220716101322740 PM" style="zoom:45%;float: left;" />
 
 即在原 TIP 的基础上，增加 TFMC Loss(Transformed Feature Map Consistency Loss)，使得查询预测分支中同一图像的 feature map 更加聚集，从而更加有利于后续的目标检测。
 
@@ -307,10 +307,10 @@ Supervision 一列中，Fully 为标准 FSOD，Semi-25%labeled 代表 base class
 
 三种不同划分方式的 PASCAL VOC 数据集实验结果如下表所示：
 
-![image-2022071753639379 PM](README.assets/image-2022071753639379 PM.png)
+![image-2022071753639379 PM](img/image-2022071753639379 PM.png)
 
 其中，**ITIP** 为原 TIP 方法的改进，即上述提到的增加 TFMC Loss。
 
 在 PASCAL VOC 数据集实验结果可视化：
 
-![image-20220716105351814 PM](README.assets/image-20220716105351814 PM.png)
+![image-20220716105351814 PM](img/image-20220716105351814 PM.png)

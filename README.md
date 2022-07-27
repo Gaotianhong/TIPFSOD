@@ -2,7 +2,7 @@
 
 论文 [Transformation Invariant Few-Shot Object Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Transformation_Invariant_Few-Shot_Object_Detection_CVPR_2021_paper.pdf) 代码复现。
 
-<img src="img/image-2022071283359179 PM.png" alt="image-2022071283359179 PM" width=50% style="zoom:40%;float: left;" />
+<img src="img/image-2022071283359179 PM.png" alt="image-2022071283359179 PM" width=80% style="zoom:40%;float: left;" />
 
 ## 目录
 
@@ -295,7 +295,7 @@ Supervision 一列中，Fully 为标准 FSOD，Semi-25%labeled 代表 base class
 
 对原有 TIP 方法进行改进，设计如下网络结构：
 
-<img src="img/image-20220716101322740 PM.png" alt="image-20220716101322740 PM" style="zoom:45%;float: left;" />
+<img src="img/image-20220716101322740 PM.png" alt="image-20220716101322740 PM" width=80% style="zoom:45%;float: left;" />
 
 即在原 TIP 的基础上，增加 TFMC Loss(Transformed Feature Map Consistency Loss)，使得查询预测分支中同一图像的 feature map 更加聚集，从而更加有利于后续的目标检测。
 

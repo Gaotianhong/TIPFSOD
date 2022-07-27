@@ -257,23 +257,23 @@ bash run/test_coco.sh
 
 总共包含三种不同的 base/novel classes 划分方式，IoU 的阈值设置为 0.5，下表为实验结果：
 
-![image-2022071753129382 PM](img/image-2022071753129382 PM.png)
+<img src="img/image-2022071753129382 PM.png" alt="image-2022071753129382 PM"  />
 
 其中，Baseline 为论文 [Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild](https://github.com/YoungXIAO13/FewShotDetection#installation) 中所使用的模型，TIP为复现论文中所使用到的模型。
 
 在 PASCAL VOC 数据集上 Baseline 实验结果可视化：
 
-![image-20220716103211601 PM](https://github.com/Gaotianhong/TIPFSOD/blob/master/img/image-20220716103211601%PM.png)
+<img src="img/image-20220716103211601 PM.png" alt="image-20220716103211601 PM"  />
 
 TIP 实验结果可视化：
 
-![image-20220716103251027 PM](https://github.com/Gaotianhong/TIPFSOD/blob/master/img/image-20220716103251027 PM.png)
+<img src="img/image-20220716103251027 PM.png" alt="image-20220716103251027 PM"  />
 
 **COCO**
 
 在 COCO 数据集的实验结果如下表所示：
 
-![image-2022071752034960 PM](https://github.com/Gaotianhong/TIPFSOD/blob/master/img/image-2022071752034960 PM.png)
+<img src="img/image-2022071752034960 PM.png" alt="image-2022071752034960 PM"  />
 
 其中，K 代表 Shots 的个数。
 
@@ -283,7 +283,7 @@ TIP 实验结果可视化：
 
 在半监督 FSOD 场景下，三种不同划分方式的 PASCAL VOC 数据集实验结果如下表所示：
 
-![image-2022071753210143 PM](https://github.com/Gaotianhong/TIPFSOD/blob/master/img/image-2022071753210143 PM.png)
+<img src="img/image-2022071753210143 PM.png" alt="image-2022071753210143 PM"  />
 
 <img src="img/image-2022071753246972 PM.png" alt="image-2022071753246972 PM" style="zoom:35%;" />
 
@@ -307,10 +307,10 @@ Supervision 一列中，Fully 为标准 FSOD，Semi-25%labeled 代表 base class
 
 三种不同划分方式的 PASCAL VOC 数据集实验结果如下表所示：
 
-<img src="img/image-2022071753639379 PM.png" alt="image-2022071753639379 PM"/>
+<img src="img/image-2022071753639379 PM.png" alt="image-2022071753639379 PM"  />
 
 其中，**ITIP** 为原 TIP 方法的改进，即上述提到的增加 TFMC Loss。
 
 在 PASCAL VOC 数据集实验结果可视化：
 
-<img src="img/image-20220716105351814 PM.png" alt="image-20220716105351814 PM"/>
+<img src="img/image-20220716105351814 PM.png" alt="image-20220716105351814 PM"  />

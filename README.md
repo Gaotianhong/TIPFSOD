@@ -263,17 +263,17 @@ bash run/test_coco.sh
 
 在 PASCAL VOC 数据集上 Baseline 实验结果可视化：
 
-![image-20220716103211601 PM](img/image-20220716103211601 PM.png)
+![image-20220716103211601 PM](https://github.com/Gaotianhong/TIPFSOD/blob/master/img/image-20220716103211601%PM.png)
 
 TIP 实验结果可视化：
 
-![image-20220716103251027 PM](img/image-20220716103251027 PM.png)
+![image-20220716103251027 PM](https://github.com/Gaotianhong/TIPFSOD/blob/master/img/image-20220716103251027 PM.png)
 
 **COCO**
 
 在 COCO 数据集的实验结果如下表所示：
 
-![image-2022071752034960 PM](img/image-2022071752034960 PM.png)
+![image-2022071752034960 PM](https://github.com/Gaotianhong/TIPFSOD/blob/master/img/image-2022071752034960 PM.png)
 
 其中，K 代表 Shots 的个数。
 
@@ -283,7 +283,7 @@ TIP 实验结果可视化：
 
 在半监督 FSOD 场景下，三种不同划分方式的 PASCAL VOC 数据集实验结果如下表所示：
 
-![image-2022071753210143 PM](img/image-2022071753210143 PM.png)
+![image-2022071753210143 PM](https://github.com/Gaotianhong/TIPFSOD/blob/master/img/image-2022071753210143 PM.png)
 
 <img src="img/image-2022071753246972 PM.png" alt="image-2022071753246972 PM" style="zoom:35%;" />
 
